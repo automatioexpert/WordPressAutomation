@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationSmokeTestSuite" duration-ms="41546" started-at="2019-12-21T16:47:09Z" finished-at="2019-12-21T16:47:51Z">
+    <groups>
+      <group name="SytemTest">
+        <method signature="HomePageTest.verifyAddNewPostLinkTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="verifyAddNewPostLinkTest" class="com.wordpress.qa.testcases.HomePageTest"/>
+        <method signature="LoginPageTest.loginPageTitleTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginPageTitleTest" class="com.wordpress.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginTest" class="com.wordpress.qa.testcases.LoginPageTest"/>
+      </group> <!-- SytemTest -->
+      <group name="Smoke">
+        <method signature="HomePageTest.verifyAddNewPostLinkTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="verifyAddNewPostLinkTest" class="com.wordpress.qa.testcases.HomePageTest"/>
+        <method signature="LoginPageTest.loginPageTitleTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginPageTitleTest" class="com.wordpress.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginTest" class="com.wordpress.qa.testcases.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="WordPressApplicationTest" duration-ms="41546" started-at="2019-12-21T16:47:09Z" finished-at="2019-12-21T16:47:51Z">
+      <class name="com.wordpress.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="setup" is-config="true" duration-ms="7883" started-at="2019-12-21T16:47:10Z" finished-at="2019-12-21T16:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginPageTitleTest" duration-ms="42" started-at="2019-12-21T16:47:17Z" finished-at="2019-12-21T16:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="2888" started-at="2019-12-21T16:47:18Z" finished-at="2019-12-21T16:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="setup" is-config="true" duration-ms="5535" started-at="2019-12-21T16:47:20Z" finished-at="2019-12-21T16:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="loginTest" duration-ms="6960" started-at="2019-12-21T16:47:26Z" finished-at="2019-12-21T16:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="634" started-at="2019-12-21T16:47:33Z" finished-at="2019-12-21T16:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.qa.testcases.LoginPageTest -->
+      <class name="com.wordpress.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="startTest" is-config="true" duration-ms="216" started-at="2019-12-21T16:47:09Z" finished-at="2019-12-21T16:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="startTest" is-config="true" duration-ms="8" started-at="2019-12-21T16:47:10Z" finished-at="2019-12-21T16:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="setup" is-config="true" duration-ms="8221" started-at="2019-12-21T16:47:34Z" finished-at="2019-12-21T16:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAddNewPostLinkTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="verifyAddNewPostLinkTest" duration-ms="7852" started-at="2019-12-21T16:47:42Z" finished-at="2019-12-21T16:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewPostLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-12-21T16:47:50Z" finished-at="2019-12-21T16:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddNewPostLinkTest status=SUCCESS method=HomePageTest.verifyAddNewPostLinkTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.wordpress.qa.testcases.HomePageTest@23e028a9]" name="endTest" is-config="true" duration-ms="577" started-at="2019-12-21T16:47:50Z" finished-at="2019-12-21T16:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.wordpress.qa.testcases.LoginPageTest@47ef968d]" name="endTest" is-config="true" duration-ms="8" started-at="2019-12-21T16:47:51Z" finished-at="2019-12-21T16:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.wordpress.qa.testcases.HomePageTest -->
+    </test> <!-- WordPressApplicationTest -->
+  </suite> <!-- AutomationSmokeTestSuite -->
+</testng-results>
